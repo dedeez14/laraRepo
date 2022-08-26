@@ -7,18 +7,16 @@
                     <thead>
                         <tr>
                             <th>Nama</th>
-                            <th>Kelas</th>
-                            <th>Jurusan</th>
+                            <th>Mapel</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($siswa as $key => $value) { ?>
+                        @foreach ($guru as $item => $value)
                         <tr>
-                            <td><?= $value['nama'] ?></td>
-                            <td><?= $value['kelas'] ?></td>
-                            <td><?= $value['jurusan'] ?></td>
+                            <td>{{$value['nama']}}</td>
+                            <td>{{$value['mapel']}}</td>
                         </tr>
-                        <?php } ?>
+                        @endforeach
                     </tbody>
                 </table>
         </div>

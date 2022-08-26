@@ -33,7 +33,6 @@
                     <ul class="navbar-nav me-auto">
                         <li><a class="nav-link" aria-current="page" href="{{ url('datasiswa') }}">Data Siswa</a></li>
                         <li><a class="nav-link" aria-current="page" href="{{ url('dataguru') }}">Data Guru</a></li>
-                        <li><a class="nav-link" aria-current="page" href="{{ url('databuku') }}">Data Buku</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

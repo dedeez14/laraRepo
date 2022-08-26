@@ -16,7 +16,7 @@ class GuruController extends Controller
     {
         $guru = Guru::all();
 
-        return view('guru', compact('guru'));
+        return view('guru.dataGuru', compact('guru'));
     }
 
     /**
